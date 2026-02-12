@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Warta Blora - Portal berita terpercaya untuk Kabupaten Blora, Jawa Tengah. Berita terkini seputar politik, ekonomi, budaya, dan olahraga."
+    />
+    <meta
+      name="keywords"
+      content="Warta Blora, berita Blora, Kabupaten Blora, berita Jawa Tengah, Cepu, Barongan"
+    />
+    <title>Warta Blora - Portal Berita Kabupaten Blora</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Merriweather:wght@400;700&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="date-display">
+              <i class="far fa-calendar-alt"></i>
+              <span id="current-date">Loading...</span>
+            </div>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+      <div class="container">
+        <!-- Logo Section -->
+        <div class="logo-section">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h1 class="site-logo mb-0">Warta Blora</h1>
+              <p class="site-tagline">Suara Masyarakat Kabupaten Blora</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <!-- Search Bar -->
+              <form class="search-bar" id="search-form">
+                <input
+                  type="text"
+                  id="search-input"
+                  placeholder="Cari berita..."
+                  class="form-control"
+                />
+                <button type="submit" aria-label="Cari">
+                  <i class="fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars" style="color: #8b4513"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Berita Utama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="kategori.html">Ekonomi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Budaya</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Olahraga</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hubungi Kami</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section - Breaking News -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <span class="breaking-badge">
+            <i class="fas fa-bolt"></i> Breaking News
+          </span>
+          <h1>
+            Festival Barongan Blora 2026 Hadirkan Ratusan Penari dari Seluruh
+            Nusantara
+          </h1>
+          <div class="hero-meta">
+            <span><i class="far fa-clock"></i> 2 jam yang lalu</span>
+            <span><i class="far fa-user"></i> Redaksi Warta Blora</span>
+            <span><i class="far fa-eye"></i> 5.234 views</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+      <div class="row">
+        <!-- Left Content - News Grid -->
+        <div class="col-lg-8">
+          <h2 class="section-title">Berita Terbaru</h2>
+
+          <div class="row g-4">
+            <!-- News Card 1 -->
+            <div class="col-md-6">
+              <article class="news-card card h-100">
+                <div class="card-img-top position-relative">
+                  <span class="card-category">Politik</span>
+                  <img
+                    src="https://placehold.co/600x400/8B4513/FFFFFF?text=Pemerintah+Daerah"
+                    alt="Pemerintah Daerah Blora"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">
+                    <a href="artikel.html"
+                      >Bupati Blora Luncurkan Program "Blora Maju Bersama" untuk
+                      Tingkatkan Kesejahteraan Petani</a
+                    >
+                  </h3>
+                  <p class="card-text">
+                    Program inovatif yang fokus pada pemberdayaan petani
+                    tembakau dan jati ini diharapkan dapat meningkatkan
+                    pendapatan masyarakat desa hingga 40 persen.
+                  </p>
+                  <div class="card-meta">
+                    <span><i class="far fa-clock"></i> 4 jam lalu</span>
+                    <span><i class="far fa-comment"></i> 23</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- News Card 2 -->
+            <div class="col-md-6">
+              <article class="news-card card h-100">
+                <div class="card-img-top position-relative">
+                  <span class="card-category">Ekonomi</span>
+                  <img
+                    src="https://placehold.co/600x400/2E7D32/FFFFFF?text=Harga+Kayu+Jati"
+                    alt="Kayu Jati Blora"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">
+                    <a href="artikel.html"
+                      >Harga Kayu Jati Blora Melonjak 25 Persen di Pasar
+                      Internasional</a
+                    >
+                  </h3>
+                  <p class="card-text">
+                    Permintaan kayu jati berkualitas tinggi dari Blora meningkat
+                    drastis dari negara-negara Eropa dan Asia, memberikan dampak
+                    positif bagi pengrajin lokal.
+                  </p>
+                  <div class="card-meta">
+                    <span><i class="far fa-clock"></i> 6 jam lalu</span>
+                    <span><i class="far fa-comment"></i> 45</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- News Card 3 -->
+            <div class="col-md-6">
+              <article class="news-card card h-100">
+                <div class="card-img-top position-relative">
+                  <span class="card-category">Energi</span>
+                  <img
+                    src="https://placehold.co/600x400/1565C0/FFFFFF?text=Blok+Cepu"
+                    alt="Blok Cepu"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">
+                    <a href="artikel.html"
+                      >Produksi Minyak Blok Cepu Capai Target 200 Ribu Barel Per
+                      Hari</a
+                    >
+                  </h3>
+                  <p class="card-text">
+                    Pencapaian ini menjadikan Blok Cepu sebagai salah satu
+                    ladang minyak terbesar di Indonesia dan membuka peluang
+                    kerja baru untuk ribuan warga lokal.
+                  </p>
+                  <div class="card-meta">
+                    <span><i class="far fa-clock"></i> 8 jam lalu</span>
+                    <span><i class="far fa-comment"></i> 67</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- News Card 4 -->
+            <div class="col-md-6">
+              <article class="news-card card h-100">
+                <div class="card-img-top position-relative">
+                  <span class="card-category">Pendidikan</span>
+                  <img
+                    src="https://placehold.co/600x400/C62828/FFFFFF?text=Pendidikan+Blora"
+                    alt="Pendidikan di Blora"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">
+                    <a href="artikel.html"
+                      >Siswa SMA Negeri 1 Blora Raih Medali Emas Olimpiade Sains
+                      Nasional</a
+                    >
+                  </h3>
+                  <p class="card-text">
+                    Prestasi gemilang ini merupakan yang pertama kalinya bagi
+                    Kabupaten Blora dan membanggakan seluruh masyarakat Jawa
+                    Tengah.
+                  </p>
+                  <div class="card-meta">
+                    <span><i class="far fa-clock"></i> 10 jam lalu</span>
+                    <span><i class="far fa-comment"></i> 89</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- News Card 5 -->
+            <div class="col-md-6">
+              <article class="news-card card h-100">
+                <div class="card-img-top position-relative">
+                  <span class="card-category">Infrastruktur</span>
+                  <img
+                    src="https://placehold.co/600x400/F57C00/FFFFFF?text=Jalan+Tol"
+                    alt="Pembangunan Jalan"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">
+                    <a href="artikel.html"
+                      >Pembangunan Jalan Tol Cepu-Blora Dimulai, Ditargetkan
+                      Rampung 2028</a
+                    >
+                  </h3>
+                  <p class="card-text">
+                    Proyek strategis ini akan memangkas waktu tempuh
+                    Jakarta-Blora menjadi hanya 6 jam dan meningkatkan
+                    konektivitas ekonomi regional.
+                  </p>
+                  <div class="card-meta">
+                    <span><i class="far fa-clock"></i> 12 jam lalu</span>
+                    <span><i class="far fa-comment"></i> 102</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- News Card 6 -->
+            <div class="col-md-6">
+              <article class="news-card card h-100">
+                <div class="card-img-top position-relative">
+                  <span class="card-category">Kesehatan</span>
+                  <img
+                    src="https://placehold.co/600x400/00897B/FFFFFF?text=Rumah+Sakit"
+                    alt="Kesehatan Masyarakat"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">
+                    <a href="artikel.html"
+                      >RSUD Blora Tambah 50 Tempat Tidur untuk Tingkatkan
+                      Layanan Kesehatan</a
+                    >
+                  </h3>
+                  <p class="card-text">
+                    Pengembangan fasilitas kesehatan ini dilengkapi dengan
+                    peralatan medis modern untuk memberikan pelayanan terbaik
+                    bagi masyarakat Blora.
+                  </p>
+                  <div class="card-meta">
+                    <span><i class="far fa-clock"></i> 1 hari lalu</span>
+                    <span><i class="far fa-comment"></i> 34</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <aside class="col-lg-4">
+          <!-- Trending Widget -->
+          <div class="sidebar-widget">
+            <h3 class="widget-title">
+              <i class="fas fa-fire"></i> Populer Minggu Ini
+            </h3>
+
+            <div class="trending-item">
+              <div class="trending-number">1</div>
+              <div class="trending-content">
+                <h4>
+                  <a href="artikel.html"
+                    >Festival Barongan Blora Memukau Ribuan Penonton dari
+                    Berbagai Daerah</a
+                  >
+                </h4>
+                <p><i class="far fa-eye"></i> 12.456 views</p>
+              </div>
+            </div>
+
+            <div class="trending-item">
+              <div class="trending-number">2</div>
+              <div class="trending-content">
+                <h4>
+                  <a href="artikel.html"
+                    >Petani Blora Panen Raya Tembakau dengan Kualitas Premium</a
+                  >
+                </h4>
+                <p><i class="far fa-eye"></i> 9.823 views</p>
+              </div>
+            </div>
+
+            <div class="trending-item">
+              <div class="trending-number">3</div>
+              <div class="trending-content">
+                <h4>
+                  <a href="artikel.html"
+                    >Wisata Waduk Greneng Cepu Ramai Dikunjungi Saat Libur Akhir
+                    Pekan</a
+                  >
+                </h4>
+                <p><i class="far fa-eye"></i> 8.234 views</p>
+              </div>
+            </div>
+
+            <div class="trending-item">
+              <div class="trending-number">4</div>
+              <div class="trending-content">
+                <h4>
+                  <a href="artikel.html"
+                    >UMKM Blora Tembus Pasar Ekspor ke Malaysia dan Singapura</a
+                  >
+                </h4>
+                <p><i class="far fa-eye"></i> 7.567 views</p>
+              </div>
+            </div>
+
+            <div class="trending-item">
+              <div class="trending-number">5</div>
+              <div class="trending-content">
+                <h4>
+                  <a href="artikel.html"
+                    >Tim Sepak Bola Persblora Promosi ke Liga 2 Indonesia</a
+                  >
+                </h4>
+                <p><i class="far fa-eye"></i> 6.890 views</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Weather Widget -->
+          <div class="sidebar-widget weather-widget">
+            <h3 class="widget-title">
+              <i class="fas fa-cloud-sun"></i> Cuaca Blora
+            </h3>
+            <div class="weather-icon">
+              <i class="fas fa-sun"></i>
+            </div>
+            <div class="weather-temp">32°C</div>
+            <div class="weather-desc">Cerah Berawan</div>
+            <div class="mt-3 text-muted">
+              <small><i class="fas fa-tint"></i> Kelembaban: 65%</small><br />
+              <small><i class="fas fa-wind"></i> Angin: 12 km/jam</small>
+            </div>
+          </div>
+
+          <!-- Advertisement Placeholder -->
+          <div
+            class="sidebar-widget text-center"
+            style="
+              background: #f0f0f0;
+              min-height: 250px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <div>
+              <i class="fas fa-ad" style="font-size: 3rem; color: #ccc"></i>
+              <p class="mt-3 text-muted">Ruang Iklan<br />300 x 250</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="footer-section">
+              <h4>Tentang Warta Blora</h4>
+              <p>
+                Warta Blora adalah portal berita terpercaya yang menyajikan
+                informasi terkini seputar Kabupaten Blora, Jawa Tengah. Kami
+                berkomitmen untuk memberikan berita yang akurat, berimbang, dan
+                independen.
+              </p>
+              <div class="footer-social">
+                <a href="#" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" aria-label="YouTube"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <div class="footer-section">
+              <h4>Menu Utama</h4>
+              <ul class="footer-links">
+                <li><a href="index.html">Berita Utama</a></li>
+                <li><a href="kategori.html">Ekonomi</a></li>
+                <li><a href="#">Budaya</a></li>
+                <li><a href="#">Olahraga</a></li>
+                <li><a href="#">Kontak</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Categories -->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <div class="footer-section">
+              <h4>Kategori</h4>
+              <ul class="footer-links">
+                <li><a href="#">Politik</a></li>
+                <li><a href="#">Pendidikan</a></li>
+                <li><a href="#">Kesehatan</a></li>
+                <li><a href="#">Teknologi</a></li>
+                <li><a href="#">Pariwisata</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="footer-section">
+              <h4>Berlangganan Newsletter</h4>
+              <p>Dapatkan berita terbaru langsung di email Anda setiap hari.</p>
+              <form class="newsletter-form" id="newsletter-form">
+                <input
+                  type="email"
+                  id="newsletter-email"
+                  placeholder="Email Anda"
+                  required
+                />
+                <button type="submit">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Warta Blora. Seluruh hak cipta dilindungi undang-undang.
+            | <a href="#" style="color: inherit">Kebijakan Privasi</a> |
+            <a href="#" style="color: inherit">Syarat & Ketentuan</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button
+      id="back-to-top"
+      style="
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background: var(--primary-brown);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        z-index: 999;
+        transition: all 0.3s ease;
+      "
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS Bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

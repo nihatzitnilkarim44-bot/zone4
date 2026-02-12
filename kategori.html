@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Berita ekonomi terkini dari Kabupaten Blora, meliputi pertanian, industri, perdagangan, dan pembangunan daerah.">
+    <meta name="keywords" content="ekonomi Blora, berita ekonomi, kayu jati, tembakau, Blok Cepu, UMKM Blora">
+    <title>Ekonomi - Warta Blora</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Merriweather:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="date-display">
+                        <i class="far fa-calendar-alt"></i>
+                        <span id="current-date">Loading...</span>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container">
+            <!-- Logo Section -->
+            <div class="logo-section">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1 class="site-logo mb-0">
+                            <a href="index.html" style="text-decoration: none;">Warta Blora</a>
+                        </h1>
+                        <p class="site-tagline">Suara Masyarakat Kabupaten Blora</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <!-- Search Bar -->
+                        <form class="search-bar" id="search-form">
+                            <input type="text" id="search-input" placeholder="Cari berita..." class="form-control">
+                            <button type="submit" aria-label="Cari">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars" style="color: #8B4513;"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Berita Utama</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kategori.html">Ekonomi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Budaya</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Olahraga</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hubungi Kami</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Category Header -->
+    <section class="category-header">
+        <div class="container">
+            <h1><i class="fas fa-chart-line"></i> Ekonomi</h1>
+            <p>Berita dan informasi terkini seputar ekonomi, bisnis, dan pembangunan Kabupaten Blora</p>
+        </div>
+    </section>
+    
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row">
+            <!-- Main Category Content -->
+            <div class="col-lg-8">
+                
+                <!-- Category Item 1 -->
+                <article class="category-item">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x400/2E7D32/FFFFFF?text=Kayu+Jati+Blora" alt="Kayu Jati Blora" loading="lazy">
+                    </div>
+                    <div class="category-item-content">
+                        <span class="article-category mb-3">Perdagangan</span>
+                        <h3>Harga Kayu Jati Blora Melonjak 25 Persen di Pasar Internasional</h3>
+                        <p>Permintaan kayu jati berkualitas tinggi dari Blora meningkat drastis dari negara-negara Eropa dan Asia. Peningkatan ekspor ini memberikan dampak positif bagi pengrajin lokal dan meningkatkan pendapatan daerah hingga miliaran rupiah. Para petani jati di Kecamatan Randublatung dan Kradenan melaporkan peningkatan signifikan dalam harga jual kayu.</p>
+                        <div class="card-meta mt-3">
+                            <span><i class="far fa-clock"></i> 5 jam lalu</span>
+                            <span><i class="far fa-user"></i> Sri Wahyuni</span>
+                            <span><i class="far fa-eye"></i> 8.234 views</span>
+                        </div>
+                        <a href="artikel.html" class="read-more mt-3 d-inline-block">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Category Item 2 -->
+                <article class="category-item">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x400/8B4513/FFFFFF?text=Panen+Tembakau" alt="Panen Tembakau" loading="lazy">
+                    </div>
+                    <div class="category-item-content">
+                        <span class="article-category mb-3">Pertanian</span>
+                        <h3>Petani Tembakau Blora Raih Untung Besar dari Panen Raya 2026</h3>
+                        <p>Musim panen tembakau tahun ini memberikan hasil yang sangat menggembirakan bagi petani di Blora. Kualitas tembakau lokal mendapat apresiasi tinggi dari industri rokok nasional dengan harga mencapai Rp 120 ribu per kilogram. Program pendampingan pemerintah dalam peningkatan kualitas tembakau terbukti berhasil meningkatkan produktivitas hingga 35 persen.</p>
+                        <div class="card-meta mt-3">
+                            <span><i class="far fa-clock"></i> 8 jam lalu</span>
+                            <span><i class="far fa-user"></i> Bambang Setiawan</span>
+                            <span><i class="far fa-eye"></i> 6.789 views</span>
+                        </div>
+                        <a href="artikel.html" class="read-more mt-3 d-inline-block">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Category Item 3 -->
+                <article class="category-item">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x400/1565C0/FFFFFF?text=Blok+Cepu+Minyak" alt="Blok Cepu" loading="lazy">
+                    </div>
+                    <div class="category-item-content">
+                        <span class="article-category mb-3">Energi</span>
+                        <h3>Produksi Minyak Blok Cepu Capai Target 200 Ribu Barel Per Hari</h3>
+                        <p>PT Pertamina EP Cepu berhasil mencapai target produksi minyak yang ditetapkan untuk tahun 2026. Pencapaian ini tidak hanya menguntungkan perusahaan, tetapi juga membuka ribuan lapangan pekerjaan baru bagi masyarakat lokal. Investasi infrastruktur pendukung di kawasan Cepu juga terus ditingkatkan untuk mendukung operasional jangka panjang.</p>
+                        <div class="card-meta mt-3">
+                            <span><i class="far fa-clock"></i> 12 jam lalu</span>
+                            <span><i class="far fa-user"></i> Ahmad Fauzi</span>
+                            <span><i class="far fa-eye"></i> 9.456 views</span>
+                        </div>
+                        <a href="artikel.html" class="read-more mt-3 d-inline-block">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Category Item 4 -->
+                <article class="category-item">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x400/C62828/FFFFFF?text=UMKM+Blora" alt="UMKM Blora" loading="lazy">
+                    </div>
+                    <div class="category-item-content">
+                        <span class="article-category mb-3">UMKM</span>
+                        <h3>Produk UMKM Blora Tembus Pasar Ekspor ke Malaysia dan Singapura</h3>
+                        <p>Kerajinan tangan dan produk makanan olahan khas Blora berhasil menembus pasar internasional. Kementerian Koperasi dan UKM memberikan pendampingan khusus kepada pelaku UMKM Blora dalam meningkatkan standar kualitas produk. Omzet UMKM lokal dilaporkan meningkat hingga 60 persen setelah masuk ke pasar ekspor.</p>
+                        <div class="card-meta mt-3">
+                            <span><i class="far fa-clock"></i> 15 jam lalu</span>
+                            <span><i class="far fa-user"></i> Rina Kusuma</span>
+                            <span><i class="far fa-eye"></i> 7.123 views</span>
+                        </div>
+                        <a href="artikel.html" class="read-more mt-3 d-inline-block">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Category Item 5 -->
+                <article class="category-item">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x400/F57C00/FFFFFF?text=Pasar+Modern" alt="Pasar Modern" loading="lazy">
+                    </div>
+                    <div class="category-item-content">
+                        <span class="article-category mb-3">Pembangunan</span>
+                        <h3>Pasar Cepu Direnovasi Total dengan Anggaran Rp 15 Miliar</h3>
+                        <p>Pemerintah Kabupaten Blora mengalokasikan dana besar untuk merenovasi Pasar Cepu menjadi pasar modern yang nyaman dan higienis. Renovasi mencakup pembangunan kios permanen, sistem drainase modern, area parkir yang luas, dan fasilitas pendukung lainnya. Diharapkan pasar baru ini akan meningkatkan daya tarik pengunjung dan omzet pedagang.</p>
+                        <div class="card-meta mt-3">
+                            <span><i class="far fa-clock"></i> 18 jam lalu</span>
+                            <span><i class="far fa-user"></i> Teguh Prasetyo</span>
+                            <span><i class="far fa-eye"></i> 5.678 views</span>
+                        </div>
+                        <a href="artikel.html" class="read-more mt-3 d-inline-block">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Category Item 6 -->
+                <article class="category-item">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x400/00897B/FFFFFF?text=Bank+BRI" alt="Bank BRI" loading="lazy">
+                    </div>
+                    <div class="category-item-content">
+                        <span class="article-category mb-3">Perbankan</span>
+                        <h3>BRI Blora Salurkan KUR Rp 50 Miliar untuk Pelaku Usaha Mikro</h3>
+                        <p>Bank Rakyat Indonesia (BRI) Cabang Blora menyalurkan Kredit Usaha Rakyat (KUR) dengan total Rp 50 miliar kepada lebih dari 2.000 pelaku usaha mikro di seluruh Kabupaten Blora. Program ini bertujuan untuk memperkuat modal usaha masyarakat dan mendorong pertumbuhan ekonomi lokal. Bunga yang ditawarkan sangat kompetitif dan terjangkau untuk UMKM.</p>
+                        <div class="card-meta mt-3">
+                            <span><i class="far fa-clock"></i> 1 hari lalu</span>
+                            <span><i class="far fa-user"></i> Dewi Anjani</span>
+                            <span><i class="far fa-eye"></i> 4.890 views</span>
+                        </div>
+                        <a href="artikel.html" class="read-more mt-3 d-inline-block">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Category Item 7 -->
+                <article class="category-item">
+                    <div class="img-wrapper">
+                        <img src="https://placehold.co/600x400/6A1B9A/FFFFFF?text=Industri+Mebel" alt="Industri Mebel" loading="lazy">
+                    </div>
+                    <div class="category-item-content">
+                        <span class="article-category mb-3">Industri</span>
+                        <h3>Industri Mebel Jati Blora Terima Order Besar dari Hotel Mewah Jakarta</h3>
+                        <p>Pengrajin mebel jati di Blora mendapat order besar senilai miliaran rupiah dari beberapa hotel mewah di Jakarta. Kualitas dan desain furniture jati Blora yang eksklusif menjadi daya tarik utama. Para pengrajin bekerja ekstra untuk memenuhi pesanan dalam waktu enam bulan ke depan dengan tetap menjaga standar kualitas tinggi.</p>
+                        <div class="card-meta mt-3">
+                            <span><i class="far fa-clock"></i> 1 hari lalu</span>
+                            <span><i class="far fa-user"></i> Hadi Susanto</span>
+                            <span><i class="far fa-eye"></i> 6.234 views</span>
+                        </div>
+                        <a href="artikel.html" class="read-more mt-3 d-inline-block">
+                            Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Pagination -->
+                <nav aria-label="Navigasi halaman" class="mt-5">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </div>
+            
+            <!-- Sidebar -->
+            <aside class="col-lg-4">
+                <!-- Category Filter -->
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">
+                        <i class="fas fa-filter"></i> Filter Kategori
+                    </h3>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                            <i class="fas fa-chart-line"></i> Semua Ekonomi
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <i class="fas fa-seedling"></i> Pertanian
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <i class="fas fa-industry"></i> Industri
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <i class="fas fa-store"></i> Perdagangan
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <i class="fas fa-oil-can"></i> Energi
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <i class="fas fa-hand-holding-usd"></i> UMKM
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Popular in Economy -->
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">
+                        <i class="fas fa-fire"></i> Populer di Ekonomi
+                    </h3>
+                    
+                    <div class="trending-item">
+                        <div class="trending-number">1</div>
+                        <div class="trending-content">
+                            <h4><a href="#">Harga Gabah di Blora Stabil Meski Musim Panen Raya</a></h4>
+                            <p><i class="far fa-eye"></i> 11.234 views</p>
+                        </div>
+                    </div>
+                    
+                    <div class="trending-item">
+                        <div class="trending-number">2</div>
+                        <div class="trending-content">
+                            <h4><a href="#">Investor Asing Lirik Potensi Investasi di Blora</a></h4>
+                            <p><i class="far fa-eye"></i> 9.567 views</p>
+                        </div>
+                    </div>
+                    
+                    <div class="trending-item">
+                        <div class="trending-number">3</div>
+                        <div class="trending-content">
+                            <h4><a href="#">Ekspor Kayu Olahan Blora Tembus $5 Juta</a></h4>
+                            <p><i class="far fa-eye"></i> 8.890 views</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Economic Indicators -->
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">
+                        <i class="fas fa-chart-bar"></i> Indikator Ekonomi
+                    </h3>
+                    <div class="list-group">
+                        <div class="list-group-item d-flex justify-content-between align-items-center">
+                            <span><i class="fas fa-money-bill-wave text-success"></i> Inflasi</span>
+                            <span class="badge bg-success">2.3%</span>
+                        </div>
+                        <div class="list-group-item d-flex justify-content-between align-items-center">
+                            <span><i class="fas fa-users text-primary"></i> Pengangguran</span>
+                            <span class="badge bg-primary">4.1%</span>
+                        </div>
+                        <div class="list-group-item d-flex justify-content-between align-items-center">
+                            <span><i class="fas fa-chart-line text-warning"></i> Pertumbuhan</span>
+                            <span class="badge bg-warning">5.8%</span>
+                        </div>
+                        <div class="list-group-item d-flex justify-content-between align-items-center">
+                            <span><i class="fas fa-sack-dollar text-info"></i> PDRB</span>
+                            <span class="badge bg-info">12.4 T</span>
+                        </div>
+                    </div>
+                    <small class="text-muted d-block mt-2"><em>*Data per Q4 2025</em></small>
+                </div>
+                
+                <!-- Advertisement -->
+                <div class="sidebar-widget text-center" style="background: #f0f0f0; min-height: 250px; display: flex; align-items: center; justify-content: center;">
+                    <div>
+                        <i class="fas fa-ad" style="font-size: 3rem; color: #ccc;"></i>
+                        <p class="mt-3 text-muted">Ruang Iklan<br>300 x 250</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h4>Tentang Warta Blora</h4>
+                        <p>Warta Blora adalah portal berita terpercaya yang menyajikan informasi terkini seputar Kabupaten Blora, Jawa Tengah. Kami berkomitmen untuk memberikan berita yang akurat, berimbang, dan independen.</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h4>Menu Utama</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Berita Utama</a></li>
+                            <li><a href="kategori.html">Ekonomi</a></li>
+                            <li><a href="#">Budaya</a></li>
+                            <li><a href="#">Olahraga</a></li>
+                            <li><a href="#">Kontak</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Categories -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h4>Kategori</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Politik</a></li>
+                            <li><a href="#">Pendidikan</a></li>
+                            <li><a href="#">Kesehatan</a></li>
+                            <li><a href="#">Teknologi</a></li>
+                            <li><a href="#">Pariwisata</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Newsletter -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h4>Berlangganan Newsletter</h4>
+                        <p>Dapatkan berita terbaru langsung di email Anda setiap hari.</p>
+                        <form class="newsletter-form" id="newsletter-form">
+                            <input type="email" id="newsletter-email" placeholder="Email Anda" required>
+                            <button type="submit">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Warta Blora. Seluruh hak cipta dilindungi undang-undang. | <a href="#" style="color: inherit;">Kebijakan Privasi</a> | <a href="#" style="color: inherit;">Syarat & Ketentuan</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <button id="back-to-top" style="display: none; position: fixed; bottom: 30px; right: 30px; background: var(--primary-brown); color: white; border: none; border-radius: 50%; width: 50px; height: 50px; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 999; transition: all 0.3s ease;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
